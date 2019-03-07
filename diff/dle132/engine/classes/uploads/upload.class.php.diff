@@ -1,0 +1,8 @@
+The uploaded file exceeds the upload_max_filesize directive in php.ini || Yüklenen dosya php.ini de belirtilen upload_max_filesize değerini aşıyor
+The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form || Yüklenen dosya HTML form da belirtilen MAX_FILE_SIZE değerini aşıyor
+The uploaded file was only partially uploaded || Dosya tam olarak yüklenmedi
+No file was uploaded || Dosya yüklenmedi
+Missing a PHP temporary folder || PHP geçici klasörü bulunamıyor
+Failed to write file to disk || Dosya diske yazılamıyor
+PHP Error: File upload stopped by extension || Dosya uzantısı nedeniyle yükleme durduruldu
+Unknown upload error || Bilinmeyen yükleme hatası

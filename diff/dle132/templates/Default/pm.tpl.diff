@@ -1,0 +1,39 @@
+Список сообщений || Mesaj listesi
+Сохранить сообщение в папке "Отправленные" || Gönderilenler klasörüne kaydet
+Сообщение || Mesajınız
+Тема || Konu
+Кому || Kime
+Персональные сообщения || Kişisel mesajlar
+Отправка сообщения || Mesaj gönder
+Отправить сообщение || Mesaj gönder
+Отправленные сообщения || Giden kutusu
+Входящие сообщения || Gelen kutusu
+Папки персональных сообщений заполнены на || Mesaj klasörü kullanım yüzdeniz
+Состояние папок || Mesaj klasörü
+Ваши сообщения || Mesajlarınız
+Новое сообщение || Yeni mesaj
+Публикаций || Makaleleri
+Комментариев || Yorumları
+Регистрация || Kayıt tarihi
+Удалить || Sil
+Игнорировать || Engelle
+Пожаловаться || Bildir
+Группа || Grubu
+Ответить || Cevapla
+Просмотр || Gösterim
+Отправить || Gönder
+Ответ || Cevap
+Вопрос || Soru
+Введите два слова, показанных на изображении || Resimde görünen iki kelimeyi giriniz
+Код || Kod
+{proc-pm-limit}% от лимита ({pm-limit} сообщений) || {pm-limit} Mesaj hakkınızın şuan {proc-pm-limit}% kullanılıyor
+Получатель || Alıcı
+Введите код || Kodu girin
+//dle 10.1
+Пользователь offline || Kullanıcı çevrimdışı
+Пользователь Онлайн || Kullanıcı çevrimiçi
+[declination={news-num}]публикаци|я|и|й[/declination] || Makaleleri: {news-num}
+[declination={comm-num}]комментари|й|я|ев[/declination] || Yorumları: {comm-num}
+Статус || Durumu
+# dle 10.5
+Подтвердите что вы не робот || Robot olmadığınızı onaylayın

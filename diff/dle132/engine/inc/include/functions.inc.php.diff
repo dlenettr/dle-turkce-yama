@@ -1,0 +1,2 @@
+if ( $punkt ) $var = preg_replace( "/[^a-z0-9\_\-.]+/mi", "", $var ); || $var = str_replace( "I", "--i--", $var );X__EOL__Xif ( $punkt ) $var = preg_replace( "/[^a-z0-9\_\-.]+/mi", "", $var );
+else $var = preg_replace( "/[^a-z0-9\_\-]+/mi", "", $var ); || else $var = preg_replace( "/[^a-z0-9\_\-]+/mi", "", $var );X__EOL__X$var = str_replace( "--i--", ( $lower ) ? "i" : "I", $var );

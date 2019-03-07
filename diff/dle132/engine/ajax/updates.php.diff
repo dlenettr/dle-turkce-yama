@@ -1,0 +1,1 @@
+$data; || str_replace("Вы используете актуальную версию скрипта", "Şuan en güncel sürümü kullanıyorsunuz", $data);

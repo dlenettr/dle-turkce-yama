@@ -1,0 +1,35 @@
+Регистрация || Kayıt
+Удалить || Sil
+Изменить || Düzenle
+Категория || Kategori
+Комментариев || Yorumlar
+Просмотров || Gösterim
+посмотрело || Gösterim
+Подробнее || Devamı
+от || Tarih
+Дата || Tarih
+Автор || Yazar
+Редактировать || Düzenle
+Информация к новости || Makale hakkında bilgi
+Теги || Etiketler
+Комментарии || Yorumlar
+автор || Yazar
+// dle 10.1
+Изменил || Düzenleyen
+по причине || Nedeni
+Метки к статье || Makale etiketleri
+Информация к комментарию || Yorum hakkında bilgi
+Публикаций || Makaleleri1
+Жалоба || Bildir
+Спам || Spam
+Цитировать || Alıntı yap
+Группа || Grubu
+Пользователь offline || Kullanıcı çevrimdışı
+Пользователь Онлайн || Kullanıcı çevrimiçi
+[declination={news-num}]публикаци|я|и|й[/declination] || Makaleleri: {news-num}
+[declination={comm-num}]комментари|й|я|ев[/declination] || Yorumları: {comm-num}
+Статус || Durumu
+
+# dle 10.4
+Нравится || Beğendim
+Не нравится || Beğenmedim

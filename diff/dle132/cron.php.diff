@@ -1,0 +1,28 @@
+Внимание: В целях безопасности мы рекомендуем переименовать файл || Not: Güvenlik amacıyla bu dosyanın adını değiştirmenizi öneririz
+cron.php в любое другое название с расширением PHP || cron.php yi farklı bir isimle, PHP uzantısı ile değiştiriniz
+Для работы запуска операций по расписанию необходима поддержка вашим || İşlemi yapabilmeniz için gerekli desteğin olması gerekir
+хостингом запуска приложений с использованием Cron более подробную || Cron uygulamasının olup olmadığı ve nasıl çalıştırılacağı
+информацию о том как использовать данную функцию вы можете || hakkında ki bilgiyi hosting sağlayıcınızdan edinebilirsiniz.
+получить у вашего хостинг провайдера. ||
+Файл крона может выполнять следующие операции: || Kron dosyası ile aşağıdaki işlemleri yapabilirsiniz
+1. Созданание резервной копии базы данный. Для запуска данного режима || 1. Veritabanı yedeklemesini çalıştırmak için
+просто запустите файл cron.php без указания ему параметров || parametre belirtmeden sadece cron.php dosyasını çalıştırın
+2. Создание карты сайты сайта. Для запуска данного режима || 2. Site haritası oluşturmak için
+запустите файл с параметром cron.php?cronmode=sitemap || dosyayı bu parametre ile birlikte çalıştırın cron.php?cronmode=sitemap
+если используется консольный запуск скрипта, то используйте php -f cron.php sitemap || eğer konsol betiği olarak kullanmak isterseniz, php -f cron.php sitemap
+3. Оптимизация базы данных. Для запуска данного режима || 3. Veritabanı optimizasyonu yapmak için
+запустите файл с параметром cron.php?cronmode=optimize || dosyayı bu parametre ile birlikte çalıştırın cron.php?cronmode=optimize
+если используется консольный запуск скрипта, то используйте php -f cron.php optimize || eğer konsol betiği olarak kullanmak isterseniz, php -f cron.php optimize
+4. Запуск антивируса. Для запуска данного режима || Antivirüs sistemini çalıştırmak için
+запустите файл с параметром cron.php?cronmode=antivirus || dosyayı bu parametre ile birlikte çalıştırın cron.php?cronmode=antivirus
+если используется консольный запуск скрипта, то используйте php -f cron.php antivirus || eğer konsol betiği olarak kullanmak isterseniz, php -f cron.php antivirus
+Для включения поддержки запуска операций по крону вы должны || Bu desteği etkinleştirmek için
+поставить значение 1 для переменной $allow_cron || $allow_cron değişkeninin değerinin 1 olması gereklidir
+Укажите какое количество файлов с резервной копией БД || Sunucunuzda en fazla kaç adet veritabanının
+хранить на сервере || saklanacağını girin
+Не редактируйте код который следует ниже. || Aşağıdaki kodları düzenlemeyin
+
+#13.0
+To support the launch operations for the cron you need set a value 1 for the variable $allow_cron || Sistem çalışması için $allow_cron değişkeninin değerinin 1 olması gereklidir
+Specify the number of backup files database for save on the server || Sunucuda saklanacak max. yedek sayısını belirtiniz
+Don't edit the code which follows below. || Aşağıdaki kodları düzenlemeyin
