@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dleplugin>
+	<name>DLE Türkçe Yama</name>
+	<description>DataLife Engine Türkçe Yama</description>
+	<icon>engine/skins/images/dlenettr.png</icon>
+	<version>13.2</version>
+	<dleversion>13.2</dleversion>
+	<versioncompare>greater</versioncompare>
+	<upgradeurl>https://raw.githubusercontent.com/dlenettr/dle-turkce-yama/master/release.json</upgradeurl>
+	<filedelete>0</filedelete>
+	<needplugin></needplugin>
+	<mysqlinstall><![CDATA[]]></mysqlinstall>
+	<mysqlupgrade><![CDATA[]]></mysqlupgrade>
+	<mysqlenable><![CDATA[]]></mysqlenable>
+	<mysqldisable><![CDATA[]]></mysqldisable>
+	<mysqldelete><![CDATA[]]></mysqldelete>
+	<phpinstall><![CDATA[]]></phpinstall>
+	<phpupgrade><![CDATA[]]></phpupgrade>
+	<phpenable><![CDATA[]]></phpenable>
+	<phpdisable><![CDATA[]]></phpdisable>
+	<phpdelete><![CDATA[]]></phpdelete>
+	<file name="engine/classes/comments.class.php">
+		<operation action="replace">
+			<searchcode><![CDATA[https://www.nic.ru/whois/?searchWord=]]></searchcode>
+			<replacecode><![CDATA[https://www.whois.com.tr/domain/]]></replacecode>
+		</operation>
+	</file>
+	<file name="engine/classes/uploads/upload.class.php">
+		<operation action="replace">
+			<searchcode><![CDATA[PHP Error:]]></searchcode>
+			<replacecode><![CDATA[PHP Hatası:]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[The uploaded file exceeds the upload_max_filesize directive in php.ini]]></searchcode>
+			<replacecode><![CDATA[Yüklenen dosya php.ini de belirtilen upload_max_filesize değerini aşıyor]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form]]></searchcode>
+			<replacecode><![CDATA[Yüklenen dosya HTML form da belirtilen MAX_FILE_SIZE değerini aşıyor]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[The uploaded file was only partially uploaded]]></searchcode>
+			<replacecode><![CDATA[Dosyanın sadece bir kısmı yüklendi]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[No file was uploaded]]></searchcode>
+			<replacecode><![CDATA[Dosya yüklenemedi]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[Missing a PHP temporary folder]]></searchcode>
+			<replacecode><![CDATA[PHP geçici klasörü bulunamadı]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[Failed to write file to disk]]></searchcode>
+			<replacecode><![CDATA[Dosya diske yazılamıyor]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[File upload stopped by extension]]></searchcode>
+			<replacecode><![CDATA[Dosya yükleme bir uzantı tarafından durduruldu]]></replacecode>
+		</operation>
+		<operation action="replace">
+			<searchcode><![CDATA[Unknown upload error]]></searchcode>
+			<replacecode><![CDATA[Bilinmeyen yükleme hatası]]></replacecode>
+		</operation>
+	</file>
+	<file name="engine/ajax/updates.php">
+		<operation action="replace">
+			<searchcode><![CDATA[$data;]]></searchcode>
+			<replacecode><![CDATA[str_replace("Вы используете актуальную версию скрипта", "Şuan en güncel sürümü kullanıyorsunuz", $data);]]></replacecode>
+		</operation>
+	</file>
+	<file name="engine/inc/iptools.php">
+		<operation action="replace">
+			<searchcode><![CDATA[https://www.nic.ru/whois/?searchWord=]]></searchcode>
+			<replacecode><![CDATA[https://www.whois.com.tr/domain/]]></replacecode>
+		</operation>
+	</file>
+	<file name="engine/modules/functions.php">
+		<operation action="before">
+			<searchcode><![CDATA[if ( $punkt ) $var = preg_replace( "/[^a-z0-9\_\-.]+/mi", "", $var ); ]]></searchcode>
+			<replacecode><![CDATA[$var = str_replace( "I", "--i--", $var );]]></replacecode>
+		</operation>
+		<operation action="after">
+			<searchcode><![CDATA[else $var = preg_replace( "/[^a-z0-9\_\-]+/mi", "", $var );]]></searchcode>
+			<replacecode><![CDATA[$var = str_replace( "--i--", ( $lower ) ? "i" : "I", $var );]]></replacecode>
+		</operation>
+	</file>
+	<file name="engine/inc/include/functions.inc.php">
+		<operation action="before">
+			<searchcode><![CDATA[if ( $punkt ) $var = preg_replace( "/[^a-z0-9\_\-.]+/mi", "", $var ); ]]></searchcode>
+			<replacecode><![CDATA[$var = str_replace( "I", "--i--", $var );]]></replacecode>
+		</operation>
+		<operation action="after">
+			<searchcode><![CDATA[else $var = preg_replace( "/[^a-z0-9\_\-]+/mi", "", $var );]]></searchcode>
+			<replacecode><![CDATA[$var = str_replace( "--i--", ( $lower ) ? "i" : "I", $var );]]></replacecode>
+		</operation>
+	</file>
+</dleplugin>

@@ -1,0 +1,159 @@
+<?php
+
+$lang = array_merge($lang, array (
+
+// 13.1
+'admin_logs_action_118'		=>	"Kullanıcı filtresindeki engellemeyi düzenle:",
+// 13.1
+
+// 13.0
+'admin_logs_action_116'		=>	"Yeni Eklenti Ekleme:",
+'admin_logs_action_117'		=>	"Eklenti Düzenleme:",
+'admin_logs_action_115'		=>	"Eklenti Kaldırma, ID:",
+'admin_logs_action_1140'	=>	"Eklenti Pasifleştirme, ID:",
+'admin_logs_action_1141'	=>	"Eklenti Aktifleştirme, ID:",
+// 13.0
+
+// 12.1
+'admin_logs_action_109'	=>	"Reklam görüntülenme sayısı sıfırlandı, ID:",
+'admin_logs_action_110'	=>	"Reklam tıklanma sayısı sıfırlandı, ID:",
+'admin_logs_action_111'	=>	"Reklamlar bölümünde başlık ekledi:",
+'admin_logs_action_112'	=>	"Reklamlar bölümünde başlık düzenledi:",
+'admin_logs_action_113'	=>	"Reklamlar bölümünden başlık sildi, ID:",
+// 12.1
+
+// 12.0
+'admin_logs_action_105'	=>	"URL için meta etiket ekledi:",
+'admin_logs_action_106'	=>	"URL için meta etiket düzenledi:",
+'admin_logs_action_107'	=>	"'Meta Etiktler' den sayfa sildi",
+'admin_logs_action_108'	=>	"Kullanıcılar için dışa aktarım yaptı",
+// 12.0
+
+// 11.3
+'admin_logs_action_102'	=> "Yönlendirilecek URL eklendi:",
+'admin_logs_action_103'	=> "Yönlendirilecek URL düzenlendi:",
+'admin_logs_action_104'	=> "'Yönlendirmeler' modülünde URL(ler) silindi",
+// 11.3
+
+// 11.2
+'admin_logs_action_99'	=>	"Geçersiz PIN",
+'admin_logs_action_100'	=>	"Giriş PIN ile doğrulandı",
+'admin_logs_action_101'	=>	"Giriş (kullanıcı ve şifre).",
+// 11.2
+
+// 10.4
+'admin_logs_action_96'	=>	"Makale ayarlarında belirtilen sürenin sonunda, makale otomatik olarak silindi:",
+'admin_logs_action_97'	=>	"Kullanıcının tüm yorumları silindi:",
+'admin_logs_action_98'	=>	"Kullanıcının tüm makaleleri silindi:",
+// 10.4
+
+// 10.1
+'admin_logs_action_93'	=>	"Yeni çapraz link eklendi:",
+'admin_logs_action_94'	=>	"Anahtar kelime için çapraz link düzenlendi:",
+'admin_logs_action_95'	=>	"Link düzenlendi 'Çapraz linkler' modülünde.",
+// 10.1
+
+// 10.0
+'admin_logs_all'		=>	"Admin panelindeki tüm işlemlerin listesi.",
+'admin_logs_auth'		=>	"Admin paneline girişi başarısız olan kullanıcıların listesi, veya erişimi olan kullanıcılar.",
+'admin_logs_action_89'	=>	"Hatalı kullanıcı adı veya şifre kullanarak admin paneline yapılan başarısız giriş eylemi.",
+'admin_logs_action_90'	=>	"Tarayıcıda sahte çerezler kullanarak admin paneline yapılan başarısız giriş eylemi.",
+'admin_logs_action_91'	=>	"Yanlış şifre kullanarak siteye yapılan başarısız giriş eylemi.",
+'admin_logs_action_92'	=>	"Tarayıcıda sahte çerezler kullanarak siteye yapılan başarısız giriş eylemi.",
+// 10.0
+
+// 9.8
+'admin_logs_action_87'	=>	"Kayıtlı kullanıcıyı spamer olarak işaretledi:",
+'admin_logs_action_88'	=>	"Kayıtlı olmayan ziyaretçiyi spamer olarak işaretledi:",
+// 9.8
+
+// 9.4
+'admin_logs_action_1'	=>	"Yeni konu eklendi:",
+'admin_logs_action_2'	=>	"Yeni anket eklendi:",
+'admin_logs_action_3'	=>	"Anket Düzenlendi:",
+'admin_logs_action_4'	=>	"Yeni başlık eklendi:",
+'admin_logs_action_5'	=>	"Banner Düzenlendi:",
+'admin_logs_action_6'	=>	"Banner devre dışı bırakıldı, ID No:",
+'admin_logs_action_7'	=>	"Banner Eklendi, ID No:",
+'admin_logs_action_8'	=>	"Banner Silindi, ID No:",
+'admin_logs_action_9'	=>	"Kullanıcıları engellemek için filtre eklendi:",
+'admin_logs_action_10'	=>	"Filtrelenen kullanıcaların engelleri kaldırıldı.",
+'admin_logs_action_11'	=>	"Kategori sıralamasını değiştirildi.",
+'admin_logs_action_12'	=>	"Kategori Eklendi:",
+'admin_logs_action_13'	=>	"Kategori Silindi, ID No:",
+'admin_logs_action_14'	=>	"Kategori Düzenlendi:",
+'admin_logs_action_15'	=>	"Veritabanı Temizleme Optimizasyon Sihirbazında belirtilen tarihten önceki konular silindi:",
+'admin_logs_action_16'	=>	"Veritabanı Temizleme Optimizasyon Sihirbazında belirtilen tarihten önceki yorumlar silindi:",
+'admin_logs_action_17'	=>	"Veritabanı Temizleme Optimizasyon Sihirbazıyla Tüm Kişisel mesajlar Silindi.",
+'admin_logs_action_18'	=>	"Veritabanı Temizleme ve Optimize İşlemi Yapıldı.",
+'admin_logs_action_19'	=>	"Yorum Düzenleme",
+'admin_logs_action_20'	=>	"Konu Yorumları Silindi, ID No:",
+'admin_logs_action_21'	=>	"Sitenizdeki Yorumlar Silindi.",
+'admin_logs_action_22'	=>	"Şikayet Giderimi.",
+'admin_logs_action_23'	=>	"Veritabanı Optimizasyon/Tamir edildi.",
+'admin_logs_action_24'	=>	"Veritabanı Yedeği Oluşturuldu.",
+'admin_logs_action_25'	=>	"Konu Düzenlendi:",
+'admin_logs_action_26'	=>	"Konu Silindi:",
+'admin_logs_action_27'	=>	"Anket Kaldırıldı, ID No:",
+'admin_logs_action_28'	=>	"Ankette Oylar Temizlendi,ID No:",
+'admin_logs_action_29'	=>	"Anket Durduruldu, ID No:",
+'admin_logs_action_30'	=>	"Anket Devredışı bırakıldı, ID No:",
+'admin_logs_action_31'	=>	"E-mail şablon mesajları düzenlendi.",
+'admin_logs_action_32'	=>	"Konuya Yüklenen Fotoğraf Silindi, ID No:",
+'admin_logs_action_33'	=>	"Sabit Sayfalar için yüklenen fotoğraf ve dosyalar silindi, ID No:",
+'admin_logs_action_34'	=>	"Konuya yüklenen dosyalar silindi, ID No:",
+'admin_logs_action_36'	=>	"Dosya Yüklendi:",
+'admin_logs_action_37'	=>	"Dosya Silindi:",
+'admin_logs_action_38'	=>	"Site Haritası oluşturuldu.",
+'admin_logs_action_39'	=>	"Sabit sayfada düzenleme yapıldı.",
+'admin_logs_action_40'	=>	"Sabit sayfa silindi.",
+'admin_logs_action_41'	=>	"Kullanıcı Silindi:",
+'admin_logs_action_42'	=>	"Kullanıcının Yorumları Silindi:",
+'admin_logs_action_43'	=>	"Kullanıcı Grubu Değişiklikleri Yapıldı:",
+'admin_logs_action_44'	=>	"Üye Banlandı:",
+'admin_logs_action_45'	=>	"Kişisel Mesaj Silindi:",
+'admin_logs_action_46'	=>	"Toplu konu düzenleme yapıldı.",
+'admin_logs_action_47'	=>	"Toplu E-Mail Gönderildi.",
+'admin_logs_action_48'	=>	"Scriptin Genel Ayarları yapılandırıldı.",
+'admin_logs_action_49'	=>	"Yayınlan Yeniden Yapılandırıldı.",
+'admin_logs_action_50'	=>	"RSS Beslemesi Kaldırıldı, ID No:",
+'admin_logs_action_51'	=>	"RSS Beslemesi Eklendi:",
+'admin_logs_action_52'	=>	"RSS Beslemesi Düzenlendi:",
+'admin_logs_action_53'	=>	"RSS Kanalı Eklendi:",
+'admin_logs_action_54'	=>	"RSS Kanalı Düzenlendi:",
+'admin_logs_action_55'	=>	"RSS Kanalı Devre Dışı Bırakıldı, ID No:",
+'admin_logs_action_56'	=>	"RSS Kanalı Etkinleştirildi, ID No:",
+'admin_logs_action_57'	=>	"RSS Kanalı Silindi, ID No:",
+'admin_logs_action_58'	=>	"Veritabanı Üzerinde Bul ve Değiştirme İşlemi Yapıldı:",
+'admin_logs_action_59'	=>	"Sabit Sayfa Eklendi:",
+'admin_logs_action_60'	=>	"Sabit Sayfa Düzenlendi:",
+'admin_logs_action_61'	=>	"Etilket Bulutundan etiket Silindi",
+'admin_logs_action_62'	=>	"Etiket Bulutundan, Etiket Düzenlendi:",
+'admin_logs_action_63'	=>	"Yeni Kullanıcı Eklendi:",
+'admin_logs_action_64'	=>	"Kullanıcı Düzenlendi:",
+'admin_logs_action_65'	=>	"Kullanıcı Silindi:",
+'admin_logs_action_66'	=>	"Şablon Dil Paketi Değiştirildi:",
+'admin_logs_action_67'	=>	"Yeni Bir Şablon Oluşturuldu:",
+'admin_logs_action_68'	=>	"Şablon Kaldırıldı:",
+'admin_logs_action_69'	=>	"Şablon Dosyası Oluşturuldu:",
+'admin_logs_action_70'	=>	"Şablon Dosyası Düzenlendi:",
+'admin_logs_action_71'	=>	"Kullanıcı Profilinden Ek Alan Çıkarıldı:",
+'admin_logs_action_72'	=>	"Kullanıcı Profili İçin Ek Alan Eklendi/Düzenlendi:",
+'admin_logs_action_73'	=>	"Konular İçin Ek Alan Kaldırıldı:",
+'admin_logs_action_74'	=>	"Konular İçin Ek Alan Eklendi/Düzenlendi:",
+'admin_logs_action_75'	=>	"Kullanıcı Grubu Silindi, ID No:",
+'admin_logs_action_76'	=>	"Yeni Bir Kullanıcı Grubu Eklendi:",
+'admin_logs_action_77'	=>	"Kullanıcı Grubu Düzenlendi:",
+'admin_logs_action_78'	=>	"Video Ayarları Yapılandırıldı.",
+'admin_logs_action_79'	=>	"Kelime Filtresine Yeni Bir Kelime Eklendi:",
+'admin_logs_action_80'	=>	"Kelime Filtresinden Kelime Silindi.",
+'admin_logs_action_81'	=>	"Kelime Filtresinde Kelime Düzenlendi:",
+'admin_logs_action_82'	=>	"Yönetici paneline giriş yapıldı.",
+'admin_logs_action_83'	=>	"Soru - Cevap kısmı düzenlendi:",
+'admin_logs_action_84'	=>	"Soru - Cevap kısmında yeni soru eklendi:",
+'admin_logs_action_85'	=>	"Soru - Cevap kısmındaki soru silindi, ID No:",
+// 9.4
+
+));
+
+?>

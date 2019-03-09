@@ -22,6 +22,9 @@ DLE Türkçe dil dosyasını ve sistem üzerinde yapılması gereken değişikli
 5. Tekrar **Eklenti Yükle** butonuna tıklayınız.
 6. Yeni DLE sürümleri yüklediğinizde tek yapmanız gereken **Güncellemeleri kontrol et** butonuna tıklamak olacaktır. Eğer güncelleme varsa otomatik olarak indirilerek yüklenecektir.
 
+> Arşivdeki `diff` klasörü içinde dosyalarda yapılacak değişiklikler özel bir formatta bulunmaktadır.
+> Plugins klasöründeki zip ilk yayımlanan verilerdir. Güncelleme yapıldığında zip dosyası güncellenmeyecektir. En güncel hali için repo'yu indirebilirsiniz. Sadece yeni DLE sürümlerinde zip arşivleri güncellenecektir.
+
 ![Ekran 1](/docs/screen1.png?raw=true)
 
 ![Ekran 2](/docs/screen2.png?raw=true)
