@@ -5,6 +5,12 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 13.3
+'complaint_title'		=>	"Şikayet gönder",
+'add_err_11'			=>	"Sitede aynı URL ile başka bir paylaşım yapılmış. Lütfen URL'i değiştiriniz.",
+'upload_error_7'		=>	"Yüklenecek resim boyutu {minsize} pixel'den küçük olamaz.",
+// 13.3
+
 // 13.2
 'recaptcha_fail'		=>	"Bot olmadığınız kontrolünden geçemediniz",
 // 13.2

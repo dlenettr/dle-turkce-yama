@@ -80,7 +80,7 @@ function hideSharePopup(b,a){
 
 jQuery(function($) {
   var timeoutHover = null;
-  $("body").append('<div id="share-popup" style="display:none"><div class="social"><p>Seçili metni paylaşabilirsiniz</p><ul><li><a href="#" class="tw"><span></span>Twitter</a></li><li><a href="#" class="fb"><span></span>Facebook</a></li><li><a href="#" class="vk"><span></span>vKontakte</a></li><li><a href="#" class="gp"><span></span>Google+</a></li></ul></div><div class="link"><p>Paylaşma linki:</p><a href=""><ins></ins></a><span>Linki kopyalamak için farenizin sağ tuşuna tıklayarak «Kısayolu Kopyala» seçin</span></div></div>');
+  $("body").append('<div id="share-popup" style="display:none"><div class="social"><p>Seçili metni paylaşabilirsiniz</p><ul><li><a href="#" class="tw"><span></span>Twitter</a></li><li><a href="#" class="fb"><span></span>Facebook</a></li><li><a href="#" class="vk"><span></span>VKontakte</a></li><li><a href="#" class="gp"><span></span>Google+</a></li></ul></div><div class="link"><p>Paylaşma linki:</p><a href=""><ins></ins></a><span>Linki kopyalamak için farenizin sağ tuşuna tıklayarak «Kısayolu Kopyala» seçin</span></div></div>');
   $("#share-popup").hover(function() {
     if(typeof timeout_hover != "undefined") {
       window.clearTimeout(timeout_hover)

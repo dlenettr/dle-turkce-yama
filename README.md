@@ -1,5 +1,5 @@
 # DataLife Engine Güncel Türkçe Yaması
-<img src="https://img.shields.io/badge/dle-13.2-007dad.svg"> <img src="https://img.shields.io/badge/lang-tr-ce600f.svg"> <img src="https://img.shields.io/badge/license-GNU-60ce0f.svg">
+<img src="https://img.shields.io/badge/dle-13.3-007dad.svg"> <img src="https://img.shields.io/badge/lang-tr-ce600f.svg"> <img src="https://img.shields.io/badge/license-GNU-60ce0f.svg">
 
 DLE Türkçe dil dosyasını ve sistem üzerinde yapılması gereken değişiklikleri plugin olarak sisteminize yükleyebilirsiniz.
 
@@ -15,15 +15,22 @@ DLE Türkçe dil dosyasını ve sistem üzerinde yapılması gereken değişikli
 * URL Rewrite için Türkçe karakter desteği eklendi.
 
 ## Kurulum
-1. Yönetici panelinizde **Eklentiler** bölümünü açınız.
-2. **Eklenti Yükle** butonuna tıklayınız.
-3. Açılan penceredeki **Dosya Seç** butonuna tıklayınız.
-4. Repodan indirdiğiniz `plugins/dle<sürüm>.zip` dosyasını seçiniz.
-5. Tekrar **Eklenti Yükle** butonuna tıklayınız.
-6. Yeni DLE sürümleri yüklediğinizde tek yapmanız gereken **Güncellemeleri kontrol et** butonuna tıklamak olacaktır. Eğer güncelleme varsa otomatik olarak indirilerek yüklenecektir.
+1. Yönetici panelinizde **Tüm panel bölümleri > Eklentileri Yönet ** (`admin.php?mod=plugins`) sayfasını açınız.
+2. **Eklenti yükle** butonuna tıklayınız.
+3. Açılan penceredeki **Dosya seç** butonuna tıklayınız.
+4. Buradan indirdiğiniz arşivdeki plugins klasöründe bulunan `plugins/dle<sürüm>.zip` dosyasını seçiniz.
+5. Ardından **Eklenti yükle** butonuna tıklayınız. 
+6. Son olarak **Site Ayarları > Genel Ayarlar** sayfasından (`admin.php?mod=options&action=syscon`) Site dilini Türkçe olarak seçip kaydedebilirsiniz.
+7. Yeni DLE sürümleri yüklediğinizde tek yapmanız gereken **Güncellemeleri kontrol et** butonuna tıklamak olacaktır. Eğer güncelleme varsa otomatik olarak indirilerek yüklenecektir.
 
-> Arşivdeki `diff` klasörü içinde dosyalarda yapılacak değişiklikler özel bir formatta bulunmaktadır.
-> Plugins klasöründeki zip ilk yayımlanan verilerdir. Güncelleme yapıldığında zip dosyası güncellenmeyecektir. En güncel hali için repo'yu indirebilirsiniz. Sadece yeni DLE sürümlerinde zip arşivleri güncellenecektir.
+
+
+> **Not:** Açıklamalar Türkçe olarak yazılmıştır. İngilizce veya Rusça olarak kullandığınızda, çeviri yaparak aynı işlemleri gerçekleştirebilirsiniz.
+>
+> Plugin yüklendiğinde hata alırsanız önemsemeyiniz.
+
+
+
 
 ![Ekran 1](/docs/screen1.png?raw=true)
 
@@ -33,3 +40,4 @@ DLE Türkçe dil dosyasını ve sistem üzerinde yapılması gereken değişikli
 
 * Kurulumdan sonra `/templates/opensearch.tpl` dosyasını sitenize göre düzenleyiniz.
 * Yönetici panelinize girerek tüm sistem ve kullanıcı ayarlarını inceleyiniz.
+
