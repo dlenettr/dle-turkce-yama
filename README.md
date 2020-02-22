@@ -1,5 +1,5 @@
 # DataLife Engine Güncel Türkçe Yaması
-<img src="https://img.shields.io/badge/dle-13.3-007dad.svg"> <img src="https://img.shields.io/badge/lang-tr-ce600f.svg"> <img src="https://img.shields.io/badge/license-GNU-60ce0f.svg">
+<img src="https://img.shields.io/badge/dle-14.0-007dad.svg"> <img src="https://img.shields.io/badge/lang-tr-ce600f.svg"> <img src="https://img.shields.io/badge/license-GNU-60ce0f.svg">
 
 DLE Türkçe dil dosyasını ve sistem üzerinde yapılması gereken değişiklikleri plugin olarak sisteminize yükleyebilirsiniz.
 
@@ -14,12 +14,17 @@ DLE Türkçe dil dosyasını ve sistem üzerinde yapılması gereken değişikli
 * Kullanılan Rusça servisler Türkçe muadilleri ile değiştirildi.
 * URL Rewrite için Türkçe karakter desteği eklendi.
 
+## Güncelleme
+1. Yönetici panelinizde **Tüm panel bölümleri > Eklentileri Yönet** (`admin.php?mod=plugins`) sayfasını açınız.
+2. Eklenti listesinin en altında bulunan veya `DLE Türkçe Yama` eklentisine ait menüde bulunan **Güncellemeleri kontrol et** butonuna tıklayınız.
+3. Çeviriler otomatik olarak Github'dan çekilerek güncellenecektir.
+
 ## Kurulum
-1. Yönetici panelinizde **Tüm panel bölümleri > Eklentileri Yönet ** (`admin.php?mod=plugins`) sayfasını açınız.
+1. Yönetici panelinizde **Tüm panel bölümleri > Eklentileri Yönet** (`admin.php?mod=plugins`) sayfasını açınız.
 2. **Eklenti yükle** butonuna tıklayınız.
 3. Açılan penceredeki **Dosya seç** butonuna tıklayınız.
 4. Buradan indirdiğiniz arşivdeki plugins klasöründe bulunan `plugins/dle<sürüm>.zip` dosyasını seçiniz.
-5. Ardından **Eklenti yükle** butonuna tıklayınız. 
+5. Ardından **Eklenti yükle** butonuna tıklayınız.
 6. Son olarak **Site Ayarları > Genel Ayarlar** sayfasından (`admin.php?mod=options&action=syscon`) Site dilini Türkçe olarak seçip kaydedebilirsiniz.
 7. Yeni DLE sürümleri yüklediğinizde tek yapmanız gereken **Güncellemeleri kontrol et** butonuna tıklamak olacaktır. Eğer güncelleme varsa otomatik olarak indirilerek yüklenecektir.
 

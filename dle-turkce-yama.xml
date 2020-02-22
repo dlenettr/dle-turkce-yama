@@ -3,7 +3,7 @@
 	<name>DLE Türkçe Yama</name>
 	<description>DataLife Engine Türkçe Yama</description>
 	<icon>engine/skins/images/dlenettr.png</icon>
-	<version>13.3</version>
+	<version>14.0</version>
 	<dleversion>13.2</dleversion>
 	<versioncompare>greater</versioncompare>
 	<upgradeurl>https://raw.githubusercontent.com/dlenettr/dle-turkce-yama/master/release.json</upgradeurl>

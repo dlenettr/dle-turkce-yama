@@ -162,12 +162,12 @@ After completing the form, go to the library and click on the Google+ API (note 
 Where tags [google] … [/google] display the text enclosed between them if the authorization using Google is enabled. Tag {google_url}  displays the URL link to the authorization in the network.
 <br><br>
 <div class="bg-primary-700" style="padding:10px;">Configure authorization using Mail.Ru</div>
-First you need to create a new application on <a href="http://api.mail.ru/sites/my/add" target="_blank">Mail.Ru</a>.<br><br>
-On the next page you need to agree with the rules. Next, fill in the form below:
+First you need to create a new application on <a href="https://o2.mail.ru/app/new/" target="_blank">https://o2.mail.ru/app/new/</a>.<br><br>
+Next, fill in the form below:
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru1.jpg" /></div>
-<br />Then click "Продолжить" and move to the next step. Now you need to download receiver.html, place it to your project’s directory and let Mail.ru check the availability of this file. When you successfully add your website to Mail.ru, you should see the following message with the special parameters:
+<br />For redirect_uri use https://site.com/index.php?do=auth-social&provider=mailru where site.com your domain name.
 <br /><br /><div style="text-align:center;"><img src="engine/skins/images/mailru2.jpg" /></div>
-<br />You will need the following options: "ID" and "Секретный ключ", that you should enter to Administration Panel of the script in Social Network Settings. These fields will be unique for your site, they cannot be copied from the screenshot above.
+<br />You will need the following options: "ID" and "Secret Key", that you should enter to Administration Panel of the script in Social Network Settings. These fields will be unique for your site, they cannot be copied from the screenshot above.
 <br /><br />After that place the following code into <b>login.tpl</b>:
 <div class="code">[mailru]&lt;a href="{mailru_url}" target="_blank"&gt;Log in using Mail.Ru&lt;/a&gt;[/mailru]</div>
 Where tags [mailru] … [/mailru] display the text enclosed between them if the authorization using Mail.Ru is enabled. Tag {mailru_url} displays the URL link to the authorization in the network.

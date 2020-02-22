@@ -2,6 +2,11 @@
 
 $lang = array_merge($lang, array (
 
+// 14.0
+'admin_logs_action_120'		=>	"Kategori aktif edildi, ID:",
+'admin_logs_action_121'		=>	"Kategori deaktif edildi, ID:",
+// 14.0
+
 // 13.3
 'admin_logs_action_119'		=>	"Plugin sıralaması değiştirildi",
 // 13.3
