@@ -5,6 +5,46 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 15.1
+'error_complaint_3'		=>	"Şikayetin uzunluğu 2.000 karakterden fazla olamaz.",
+'fav_plus_err_1'		=>  "Konu zaten yer imlerinizde ekli.",
+'fav_plus_err_2'		=>  "Konu moderatör onayı beklediği için favori listenize ekleyemezsiniz.",
+'duplicate_protect'		=>	"Veriler zaten başarıyla gönderildi.",
+// 15.1
+
+// 15.0
+'file_not_image'		=>	"Sadece JPG, PNG, GIF, BMP ya da WebP dosyalarını yükleyebilirsiniz.",
+// 15.0
+
+// 14.3
+'req_field_1'			=>	"Ad alanını doldurun",
+'req_field_2'			=>	"Mesaj alanını doldurun",
+'req_field_3'			=>	"Mesajın konusu alanını doldurun",
+'share_i_1'				=>	"Seçilen metni link olarak paylaş",
+'share_i_2'				=>	"Twitter",
+'share_i_3'				=>	"Facebook",
+'share_i_4'				=>	"Vkontakte",
+'share_i_5'				=>	"Direkt Link:",
+'share_i_6'				=>	"Sağ tıklayın ve seçin «Linki Kopyala»",
+// 14.3
+
+// 14.2
+'pm_err_12'				=>	"Mesajı okumak için hesabınıza giriş yapmalısınız.",
+'pm_err_13'				=>	"Sadece kayıtlı kullanıcılar özel mesaj sistemini kullanabilir. Hesabınıza giriş yapınız ya da üye değilseniz üye olunuz.",
+// 14.2
+
+// 14.1
+'pm_err_11' 			=>   "Mesajınız gönderilemedi. Çünkü alıcının kişisel mesaj sistemini kullanma hakkı bulunmamaktadır.",
+'reg_err_45'         	=>   "Bu sosyal ağ hesabı şu an sitemizde başka bir hesaba bağlı. Hesabınıza giriş <b>{login}</b>. Hesabınıza giriş yaptıktan sonra bu sosyal ağ hesabınızın bağlantısını kaldırabilir, yeni bir hesaba ekleyebilirsiniz.",
+'reg_err_46'        	=>   "Siteye giriş yapmadığınız için, herhangi bir hesabı bağlamanız mümkün değildir",
+'reg_err_47'         	=>   "Hesabınız sosyal ağa bağlı değil. Sorunun çözümü için lütfen site yönetimi ile iletişim kurunuz.",
+'social_attach_ok' 		=>   "{social} ağ hesabınız başarılı bir şekilde hesabınıza bağlandı. Sitemizde oturum açmak için sosyal ağ hesabınızı kullanabilirsiniz.",
+'social_attach_ok_1' 	=> 	 "Hesabınız zaten {social} ağ hesabınıza bağlı. Sitemizde oturum açmak için bu hesabınızı kullanabilirsiniz.",
+'del_from_social' 		=>   "Bu sosyal ağ hesabınız ile web sitemiz arasındaki bağlantıyı kaldırmak istediğinizden emin misiniz?",
+'del_from_social_1' 	=>   "Bu sosyal ağ hesabının bağlantısını siteden kaldır.",
+'addnews_xf_alert_1' 	=>   "Bu <b>{field}</b> alan zorunludur",
+// 14.1
+
 // 14.0
 'January'				=>	"Ocak",
 'February'				=>	"Şubat",
