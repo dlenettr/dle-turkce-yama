@@ -5,6 +5,10 @@ $lang = array (
 'charset'			=>	"utf-8",
 'wysiwyg_language'	=>  "tr",
 
+// 15.2
+'news_info_9'			=>	"Bu makalede yorum yapma özelliği devre dışı bırakılmış.",
+// 15.2
+
 // 15.1
 'error_complaint_3'		=>	"Şikayetin uzunluğu 2.000 karakterden fazla olamaz.",
 'fav_plus_err_1'		=>  "Konu zaten yer imlerinizde ekli.",
